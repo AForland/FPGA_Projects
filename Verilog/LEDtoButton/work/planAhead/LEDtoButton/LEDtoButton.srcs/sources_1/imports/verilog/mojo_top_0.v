@@ -34,7 +34,7 @@ module mojo_top_0 (
   always @* begin
     M_reset_cond_in = ~rst_n;
     rst = M_reset_cond_out;
-    led = {rst, 4'h0, rst, rst, rst};
+    led = {5'h00, rst, rst, rst};
     spi_miso = 1'bz;
     spi_channel = 4'bzzzz;
     avr_rx = 1'bz;

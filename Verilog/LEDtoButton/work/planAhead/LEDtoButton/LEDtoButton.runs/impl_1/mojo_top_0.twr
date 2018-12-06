@@ -32,11 +32,11 @@ For more information, see Period Analysis in the Timing Closure User Guide (UG61
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
  Minimum period is   2.666ns.
 --------------------------------------------------------------------------------
-Slack:                  18.328ns (requirement - (data path - clock path skew + uncertainty))
+Slack:                  18.390ns (requirement - (data path - clock path skew + uncertainty))
   Source:               reset_cond/M_stage_q_0 (FF)
   Destination:          reset_cond/M_stage_q_1 (FF)
   Requirement:          20.000ns
-  Data Path Delay:      1.637ns (Levels of Logic = 0)
+  Data Path Delay:      1.575ns (Levels of Logic = 0)
   Clock Path Skew:      0.000ns
   Source Clock:         clk_BUFGP rising at 0.000ns
   Destination Clock:    clk_BUFGP rising at 20.000ns
@@ -52,21 +52,21 @@ Slack:                  18.328ns (requirement - (data path - clock path skew + u
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X8Y32.AQ       Tcko                  0.525   reset_cond/M_stage_q[2]
+    SLICE_X8Y31.AQ       Tcko                  0.525   reset_cond/M_stage_q[2]
                                                        reset_cond/M_stage_q_0
-    SLICE_X8Y32.BX       net (fanout=1)        1.027   reset_cond/M_stage_q[0]
-    SLICE_X8Y32.CLK      Tdick                 0.085   reset_cond/M_stage_q[2]
+    SLICE_X8Y31.BX       net (fanout=1)        0.965   reset_cond/M_stage_q[0]
+    SLICE_X8Y31.CLK      Tdick                 0.085   reset_cond/M_stage_q[2]
                                                        reset_cond/M_stage_q_1
     -------------------------------------------------  ---------------------------
-    Total                                      1.637ns (0.610ns logic, 1.027ns route)
-                                                       (37.3% logic, 62.7% route)
+    Total                                      1.575ns (0.610ns logic, 0.965ns route)
+                                                       (38.7% logic, 61.3% route)
 
 --------------------------------------------------------------------------------
-Slack:                  18.663ns (requirement - (data path - clock path skew + uncertainty))
+Slack:                  18.587ns (requirement - (data path - clock path skew + uncertainty))
   Source:               reset_cond/M_stage_q_1 (FF)
   Destination:          reset_cond/M_stage_q_2 (FF)
   Requirement:          20.000ns
-  Data Path Delay:      1.302ns (Levels of Logic = 0)
+  Data Path Delay:      1.378ns (Levels of Logic = 0)
   Clock Path Skew:      0.000ns
   Source Clock:         clk_BUFGP rising at 0.000ns
   Destination Clock:    clk_BUFGP rising at 20.000ns
@@ -82,14 +82,14 @@ Slack:                  18.663ns (requirement - (data path - clock path skew + u
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X8Y32.BQ       Tcko                  0.525   reset_cond/M_stage_q[2]
+    SLICE_X8Y31.BQ       Tcko                  0.525   reset_cond/M_stage_q[2]
                                                        reset_cond/M_stage_q_1
-    SLICE_X8Y32.CX       net (fanout=1)        0.692   reset_cond/M_stage_q[1]
-    SLICE_X8Y32.CLK      Tdick                 0.085   reset_cond/M_stage_q[2]
+    SLICE_X8Y31.CX       net (fanout=1)        0.768   reset_cond/M_stage_q[1]
+    SLICE_X8Y31.CLK      Tdick                 0.085   reset_cond/M_stage_q[2]
                                                        reset_cond/M_stage_q_2
     -------------------------------------------------  ---------------------------
-    Total                                      1.302ns (0.610ns logic, 0.692ns route)
-                                                       (46.9% logic, 53.1% route)
+    Total                                      1.378ns (0.610ns logic, 0.768ns route)
+                                                       (44.3% logic, 55.7% route)
 
 --------------------------------------------------------------------------------
 Slack:                  18.927ns (requirement - (data path - clock path skew + uncertainty))
@@ -112,10 +112,10 @@ Slack:                  18.927ns (requirement - (data path - clock path skew + u
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X8Y32.CQ       Tcko                  0.525   reset_cond/M_stage_q[2]
+    SLICE_X8Y31.CQ       Tcko                  0.525   reset_cond/M_stage_q[2]
                                                        reset_cond/M_stage_q_2
-    SLICE_X8Y32.A4       net (fanout=1)        0.313   reset_cond/M_stage_q[2]
-    SLICE_X8Y32.CLK      Tas                   0.200   reset_cond/M_stage_q[2]
+    SLICE_X8Y31.A4       net (fanout=1)        0.313   reset_cond/M_stage_q[2]
+    SLICE_X8Y31.CLK      Tas                   0.200   reset_cond/M_stage_q[2]
                                                        reset_cond/M_stage_q[2]_rt
                                                        reset_cond/M_stage_q_3
     -------------------------------------------------  ---------------------------
@@ -139,7 +139,7 @@ Slack: 19.520ns (period - min period limit)
   Min period limit: 0.480ns (2083.333MHz) (Tcp)
   Physical resource: reset_cond/M_stage_q[2]/CLK
   Logical resource: reset_cond/M_stage_q_3/CK
-  Location pin: SLICE_X8Y32.CLK
+  Location pin: SLICE_X8Y31.CLK
   Clock network: clk_BUFGP
 --------------------------------------------------------------------------------
 Slack: 19.520ns (period - (min high pulse limit / (high pulse / period)))
@@ -148,7 +148,7 @@ Slack: 19.520ns (period - (min high pulse limit / (high pulse / period)))
   High pulse limit: 0.240ns (Trpw)
   Physical resource: reset_cond/M_stage_q[2]/SR
   Logical resource: reset_cond/M_stage_q_3/SR
-  Location pin: SLICE_X8Y32.SR
+  Location pin: SLICE_X8Y31.SR
   Clock network: M_reset_cond_in
 --------------------------------------------------------------------------------
 Slack: 19.520ns (period - min period limit)
@@ -156,7 +156,7 @@ Slack: 19.520ns (period - min period limit)
   Min period limit: 0.480ns (2083.333MHz) (Tcp)
   Physical resource: reset_cond/M_stage_q[2]/CLK
   Logical resource: reset_cond/M_stage_q_0/CK
-  Location pin: SLICE_X8Y32.CLK
+  Location pin: SLICE_X8Y31.CLK
   Clock network: clk_BUFGP
 --------------------------------------------------------------------------------
 Slack: 19.520ns (period - min period limit)
@@ -164,7 +164,7 @@ Slack: 19.520ns (period - min period limit)
   Min period limit: 0.480ns (2083.333MHz) (Tcp)
   Physical resource: reset_cond/M_stage_q[2]/CLK
   Logical resource: reset_cond/M_stage_q_1/CK
-  Location pin: SLICE_X8Y32.CLK
+  Location pin: SLICE_X8Y31.CLK
   Clock network: clk_BUFGP
 --------------------------------------------------------------------------------
 Slack: 19.520ns (period - min period limit)
@@ -172,7 +172,7 @@ Slack: 19.520ns (period - min period limit)
   Min period limit: 0.480ns (2083.333MHz) (Tcp)
   Physical resource: reset_cond/M_stage_q[2]/CLK
   Logical resource: reset_cond/M_stage_q_2/CK
-  Location pin: SLICE_X8Y32.CLK
+  Location pin: SLICE_X8Y31.CLK
   Clock network: clk_BUFGP
 --------------------------------------------------------------------------------
 
@@ -189,7 +189,7 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    1.672|         |         |         |
+clk            |    1.610|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
@@ -207,7 +207,7 @@ Design statistics:
 ------------------------------------Footnotes-----------------------------------
 1)  The minimum period statistic assumes all single cycle delays.
 
-Analysis completed Wed Dec  5 16:14:09 2018 
+Analysis completed Wed Dec  5 19:14:40 2018 
 --------------------------------------------------------------------------------
 
 Trace Settings:

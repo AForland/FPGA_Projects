@@ -5,12 +5,10 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <DeviceUsageSummary rev="2">
-<DesignStatistics TimeStamp="Wed Dec  5 16:14:17 2018"><group name="NetStatistics">
+<DesignStatistics TimeStamp="Wed Dec  5 19:14:47 2018"><group name="NetStatistics">
 <item name="NumNets_Active" rev="2">
 <attrib name="value" value="29"/></item>
 <item name="NumNets_Gnd" rev="2">
-<attrib name="value" value="1"/></item>
-<item name="NumNodesOfType_Active_BOUNCEIN" rev="2">
 <attrib name="value" value="1"/></item>
 <item name="NumNodesOfType_Active_BUFGOUT" rev="2">
 <attrib name="value" value="1"/></item>
@@ -23,17 +21,17 @@
 <item name="NumNodesOfType_Active_CNTRLPIN" rev="2">
 <attrib name="value" value="1"/></item>
 <item name="NumNodesOfType_Active_DOUBLE" rev="2">
-<attrib name="value" value="1"/></item>
+<attrib name="value" value="4"/></item>
 <item name="NumNodesOfType_Active_GENERIC" rev="2">
-<attrib name="value" value="7"/></item>
+<attrib name="value" value="6"/></item>
 <item name="NumNodesOfType_Active_GLOBAL" rev="2">
 <attrib name="value" value="8"/></item>
 <item name="NumNodesOfType_Active_INPUT" rev="2">
 <attrib name="value" value="1"/></item>
 <item name="NumNodesOfType_Active_IOBIN2OUT" rev="2">
-<attrib name="value" value="5"/></item>
+<attrib name="value" value="4"/></item>
 <item name="NumNodesOfType_Active_IOBOUTPUT" rev="2">
-<attrib name="value" value="5"/></item>
+<attrib name="value" value="4"/></item>
 <item name="NumNodesOfType_Active_LUTINPUT" rev="2">
 <attrib name="value" value="1"/></item>
 <item name="NumNodesOfType_Active_OUTBOUND" rev="2">
@@ -41,45 +39,45 @@
 <item name="NumNodesOfType_Active_OUTPUT" rev="2">
 <attrib name="value" value="5"/></item>
 <item name="NumNodesOfType_Active_PADINPUT" rev="2">
-<attrib name="value" value="4"/></item>
+<attrib name="value" value="3"/></item>
 <item name="NumNodesOfType_Active_PADOUTPUT" rev="2">
 <attrib name="value" value="2"/></item>
 <item name="NumNodesOfType_Active_PINBOUNCE" rev="2">
 <attrib name="value" value="5"/></item>
 <item name="NumNodesOfType_Active_PINFEED" rev="2">
-<attrib name="value" value="8"/></item>
+<attrib name="value" value="7"/></item>
 <item name="NumNodesOfType_Active_QUAD" rev="2">
-<attrib name="value" value="18"/></item>
+<attrib name="value" value="15"/></item>
 <item name="NumNodesOfType_Active_REGINPUT" rev="2">
 <attrib name="value" value="2"/></item>
 <item name="NumNodesOfType_Active_SINGLE" rev="2">
-<attrib name="value" value="7"/></item>
+<attrib name="value" value="8"/></item>
 <item name="NumNodesOfType_Gnd_BOUNCEIN" rev="2">
 <attrib name="value" value="1"/></item>
 <item name="NumNodesOfType_Gnd_DOUBLE" rev="2">
 <attrib name="value" value="1"/></item>
 <item name="NumNodesOfType_Gnd_GENERIC" rev="2">
-<attrib name="value" value="4"/></item>
+<attrib name="value" value="5"/></item>
 <item name="NumNodesOfType_Gnd_HGNDOUT" rev="2">
 <attrib name="value" value="1"/></item>
 <item name="NumNodesOfType_Gnd_IOBIN2OUT" rev="2">
-<attrib name="value" value="4"/></item>
+<attrib name="value" value="5"/></item>
 <item name="NumNodesOfType_Gnd_IOBOUTPUT" rev="2">
-<attrib name="value" value="4"/></item>
+<attrib name="value" value="5"/></item>
 <item name="NumNodesOfType_Gnd_OUTBOUND" rev="2">
-<attrib name="value" value="3"/></item>
-<item name="NumNodesOfType_Gnd_OUTPUT" rev="2">
-<attrib name="value" value="3"/></item>
-<item name="NumNodesOfType_Gnd_PADINPUT" rev="2">
 <attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Gnd_OUTPUT" rev="2">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Gnd_PADINPUT" rev="2">
+<attrib name="value" value="5"/></item>
 <item name="NumNodesOfType_Gnd_PINBOUNCE" rev="2">
 <attrib name="value" value="2"/></item>
 <item name="NumNodesOfType_Gnd_PINFEED" rev="2">
-<attrib name="value" value="4"/></item>
+<attrib name="value" value="5"/></item>
 <item name="NumNodesOfType_Gnd_REGINPUT" rev="2">
 <attrib name="value" value="1"/></item>
 <item name="NumNodesOfType_Gnd_SINGLE" rev="2">
-<attrib name="value" value="3"/></item>
+<attrib name="value" value="4"/></item>
 </group>
 <group name="SiteStatistics">
 <item name="BUFG-BUFGMUX" rev="2">
@@ -128,7 +126,7 @@
 <attrib name="value" value="4"/></item>
 </group>
 </DesignStatistics>
-<DeviceUsage TimeStamp="Wed Dec  5 16:14:17 2018"><group name="SiteSummary">
+<DeviceUsage TimeStamp="Wed Dec  5 19:14:47 2018"><group name="SiteSummary">
 <item name="BUFG" rev="2">
 <attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
 <item name="BUFG_BUFG" rev="2">
@@ -155,7 +153,7 @@
 <attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
 </group>
 </DeviceUsage>
-<ReportConfigData TimeStamp="Wed Dec  5 16:14:17 2018"><group name="REG_SR">
+<ReportConfigData TimeStamp="Wed Dec  5 19:14:47 2018"><group name="REG_SR">
 <item name="CK" rev="2">
 <attrib name="CK" value="3"/><attrib name="CK_INV" value="0"/></item>
 <item name="LATCH_OR_FF" rev="2">
@@ -186,7 +184,7 @@
 <attrib name="SYNC" value="1"/></item>
 </group>
 </ReportConfigData>
-<ReportPinData TimeStamp="Wed Dec  5 16:14:17 2018"><group name="REG_SR">
+<ReportPinData TimeStamp="Wed Dec  5 19:14:47 2018"><group name="REG_SR">
 <item name="CK" rev="2">
 <attrib name="value" value="3"/></item>
 <item name="D" rev="2">

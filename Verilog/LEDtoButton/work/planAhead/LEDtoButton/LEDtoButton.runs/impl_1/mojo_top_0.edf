@@ -4,7 +4,7 @@
   (keywordmap (keywordlevel 0))
 (status
  (written
-  (timeStamp 2018 12 05 16 13 43)
+  (timeStamp 2018 12 05 19 14 15)
   (program "PlanAhead" (version "14.7"))
   (comment "Built on 'Fri Sep 27 19:24:36 MDT 2013'")
   (comment "Built by 'xbuild'")
@@ -272,7 +272,6 @@
           )
          )
          (net M_reset_cond_out (joined
-          (portref I (instanceref led_7_OBUF))
           (portref I (instanceref led_2_OBUF))
           (portref I (instanceref led_1_OBUF))
           (portref I (instanceref led_0_OBUF))
@@ -286,6 +285,7 @@
          )
          (net led_3_OBUF (joined
           (portref G (instanceref XST_GND))
+          (portref I (instanceref led_7_OBUF))
           (portref I (instanceref led_6_OBUF))
           (portref I (instanceref led_5_OBUF))
           (portref I (instanceref led_4_OBUF))

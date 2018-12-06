@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timestamp 2018 12 5 16 13 41)
+      (timestamp 2018 12 5 19 14 13)
       (program "Xilinx ngc2edif" (version "P.20131013"))
       (author "Xilinx. Inc ")
       (comment "This EDIF netlist is to be used within supported synthesis tools")
@@ -371,7 +371,6 @@
             )
             (net M_reset_cond_out
               (joined
-                (portRef I (instanceRef led_7_OBUF))
                 (portRef I (instanceRef led_2_OBUF))
                 (portRef I (instanceRef led_1_OBUF))
                 (portRef I (instanceRef led_0_OBUF))
@@ -387,6 +386,7 @@
             (net led_3_OBUF
               (joined
                 (portRef G (instanceRef XST_GND))
+                (portRef I (instanceRef led_7_OBUF))
                 (portRef I (instanceRef led_6_OBUF))
                 (portRef I (instanceRef led_5_OBUF))
                 (portRef I (instanceRef led_4_OBUF))

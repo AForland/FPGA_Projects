@@ -8,7 +8,7 @@ Target Device  : xc6slx9
 Target Package : tqg144
 Target Speed   : -2
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Wed Dec  5 16:13:54 2018
+Mapped Date    : Wed Dec  5 19:14:25 2018
 
 Mapping design into LUTs...
 WARNING:MapLib:701 - Signal spi_channel[3] connected to top level port
@@ -60,19 +60,19 @@ Phase 8.5  Local Placement Optimization (Checksum:25e92ef2) REAL time: 4 secs
 
 Phase 9.8  Global Placement
 ...
-Phase 9.8  Global Placement (Checksum:9950a91e) REAL time: 4 secs 
+Phase 9.8  Global Placement (Checksum:9805625e) REAL time: 4 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:9950a91e) REAL time: 4 secs 
+Phase 10.5  Local Placement Optimization (Checksum:9805625e) REAL time: 4 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:9950a91e) REAL time: 4 secs 
+Phase 11.18  Placement Optimization (Checksum:9805625e) REAL time: 4 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:9950a91e) REAL time: 4 secs 
+Phase 12.5  Local Placement Optimization (Checksum:9805625e) REAL time: 4 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:9950a91e) REAL time: 4 secs 
+Phase 13.34  Placement Validation (Checksum:9805625e) REAL time: 4 secs 
 
 Total REAL time to Placer completion: 4 secs 
 Total CPU  time to Placer completion: 4 secs 
@@ -145,7 +145,7 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of SUSPEND_SYNCs:                       0 out of       1    0%
 
-Average Fanout of Non-Clock Nets:                1.00
+Average Fanout of Non-Clock Nets:                0.92
 
 Peak Memory Usage:  773 MB
 Total REAL time to MAP completion:  4 secs 
